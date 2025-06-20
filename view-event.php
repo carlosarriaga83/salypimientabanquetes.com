@@ -504,7 +504,7 @@
         
         var id = $('input[name="EDIT_ID"]').val();
         debugger;
-        $('input[name="LINK"]').val( 'https://salypimientabanquetes.com/IO3/?e_id=' + id );
+        $('input[name="LINK"]').val( 'https://app.salypimientabanquetes.com/?e_id=%s' + id );
         debugger;
         
     });
