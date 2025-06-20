@@ -398,7 +398,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item text-black px-0 py-8 hover-bg-transparent hover-text-danger d-flex align-items-center gap-3" href="../ADMIN/API/Logout.php">
+                                        <a class="dropdown-item text-black px-0 py-8 hover-bg-transparent hover-text-danger d-flex align-items-center gap-3" href="../API/Logout.php">
                                             <iconify-icon icon="lucide:power" class="icon text-xl"></iconify-icon> Log Out
                                         </a>
                                     </li>
