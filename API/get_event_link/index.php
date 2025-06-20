@@ -26,7 +26,8 @@
 		
 		$after_slash = sprintf('IO3/index.php?e_id=%s', $ID );
 		
-		$EVENT_LINK = ADD_CUSTOM_LINK($ID,$after_slash);
+		//$EVENT_LINK = ADD_CUSTOM_LINK($ID,$after_slash);
+		$EVENT_LINK = sprintf('https://app.salypimientabanquetes.com/?e_id=%s', $ID );
 
 		//$EVENT_LINK = $after_slash;
 		$q = sprintf("UPDATE u124132715_SYP.Events SET Datos = JSON_SET(Datos, \"$.EVENT_LINK\", '%s') WHERE id = '%s'",  $EVENT_LINK, $ID); 
